@@ -73,9 +73,10 @@ This project specifically addresses stability issues found when integrating the 
 5. Screenshots
 
 
-<img width="200" height="262" alt="Simulator Screenshot - iPhone 17 - 2025-11-08 at 13 07 02" src="https://github.com/user-attachments/assets/4b6a4b5c-65c0-45d1-b4ce-3ee029677629" />
-<img width="200" height="262" alt="Simulator Screenshot - iPhone 17 - 2025-11-08 at 13 18 23" src="https://github.com/user-attachments/assets/a9bcc863-db6d-4194-9bc8-160886fa76b6" />
-
+<img width="300" height="262" alt="Simulator Screenshot - iPhone 17 - 2025-11-08 at 13 07 02" src="https://github.com/user-attachments/assets/4b6a4b5c-65c0-45d1-b4ce-3ee029677629" />
+<img width="300" height="262" alt="Simulator Screenshot - iPhone 17 - 2025-11-08 at 13 18 23" src="https://github.com/user-attachments/assets/a9bcc863-db6d-4194-9bc8-160886fa76b6" />
+<img width="300" height="262" alt="Simulator Screenshot - iPhone 17 - 2025-11-08 at 13 15 27" src="https://github.com/user-attachments/assets/7a2793e4-715f-4fc4-9693-f09fb396735b" />
+<img width="300" height="262" alt="Simulator Screenshot - iPhone 17 - 2025-11-08 at 14 12 50" src="https://github.com/user-attachments/assets/73bd7381-c918-4c27-ae99-cbbdfecb1918" />
 
 ## 📸 Usage
 
