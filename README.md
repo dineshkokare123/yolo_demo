@@ -21,6 +21,29 @@ This repository serves as a working template and includes critical fixes necessa
 * **Model:** YOLOv8n (YOLOv8 Nano)
 * **Language:** Dart
 
+# 💻 Using Custom ML Models on iOS (CoreML)
+
+For best performance and optimized hardware acceleration on iOS devices, the model should be converted to Apple's native **CoreML** format (`.mlpackage`). The `ultralytics_yolo` plugin supports this natively.
+
+### Steps to Prepare a Custom Model for iOS:
+
+1.  **Train Your Model:** Use the Ultralytics CLI or Python API to train your model on your custom dataset. This produces a weight file (e.g., `best.pt`).
+
+2.  **Convert to CoreML:** Export the trained PyTorch model to the CoreML format (`.mlpackage`). This step is crucial for iOS optimization.
+    ```bash
+    # Run this command in your Python/Ultralytics environment
+    yolo mode=export model=path/to/your/best.pt format=coreml nms=True
+    ```
+    * The `nms=True` (Non-Maximum Suppression) flag is recommended as it bakes necessary post-processing into the model.
+
+3.  **Update App Assets:**
+    * Replace the model file used in the native iOS runner with your new **`.mlpackage`**.
+    * **Crucially,** replace the `cocoLabels` list in the `main.dart` file with the **exact list of class names** from your custom training data, ensuring the order matches your model's index mapping.
+
+4.  **Update `modelPath`:** Ensure the `modelPath` in the Dart code points to the file identifier of your custom CoreML model within the plugin.
+
+***
+
 ## 🛠️ Key Fixes Implemented
 
 This project specifically addresses stability issues found when integrating the plugin:
