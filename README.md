@@ -49,8 +49,8 @@ This project specifically addresses stability issues found when integrating the 
     ```
 5. Screenshots
 
-    <img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 - 2025-11-08 at 13 06 37" src="https://github.com/user-attachments/assets/31bdeacb-b571-4500-beb6-f25e53882e25" /> {width=300}
-<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 - 2025-11-08 at 13 07 02" src="https://github.com/user-attachments/assets/0855a10d-62ba-4e1b-ad73-3c2a59ea1d1a" />{width=300}
+    <img width="600" height="1311" alt="Simulator Screenshot - iPhone 17 - 2025-11-08 at 13 06 37" src="https://github.com/user-attachments/assets/31bdeacb-b571-4500-beb6-f25e53882e25" />
+<img width="600" height="1311" alt="Simulator Screenshot - iPhone 17 - 2025-11-08 at 13 07 02" src="https://github.com/user-attachments/assets/0855a10d-62ba-4e1b-ad73-3c2a59ea1d1a" />
 
 
 ## 📸 Usage
