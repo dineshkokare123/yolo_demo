@@ -47,6 +47,10 @@ This project specifically addresses stability issues found when integrating the 
     ```bash
     flutter run
     ```
+5. Screenshots
+    <img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 - 2025-11-08 at 13 06 37" src="https://github.com/user-attachments/assets/31bdeacb-b571-4500-beb6-f25e53882e25" />
+<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 - 2025-11-08 at 13 07 02" src="https://github.com/user-attachments/assets/0855a10d-62ba-4e1b-ad73-3c2a59ea1d1a" />
+
 
 ## 📸 Usage
 
@@ -54,6 +58,7 @@ This project specifically addresses stability issues found when integrating the 
 2.  Select an image from your device gallery.
 3.  The app will display the image with red bounding boxes and confidence labels drawn over detected objects.
 4.  The list below the image shows the confidence and label for each detected object.
+
 
 ## 🤝 Contributing
 
