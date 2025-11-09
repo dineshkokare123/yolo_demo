@@ -8,11 +8,8 @@ import 'dart:ui' as ui;
 
 void main() => runApp(const YOLODemo());
 
-// --- CORE HELPER FUNCTION ---
 
-// FIX: Safely extracts the class ID. It now handles:
-// 1. Numeric ID directly.
-// 2. String Class Name (e.g., "apple") by looking it up in the labels list.
+.
 int _safelyParseClassId(Map<String, dynamic> detection, List<String> labels) {
   // 1. Check for the numeric ID keys first (for robustness)
   final dynamic numericIdValue = detection['class_id'] ?? detection['id'];
@@ -146,7 +143,6 @@ class YOLODemoState extends State<YOLODemo> {
         results = boxes?.cast<Map<String, dynamic>>() ?? [];
         isLoading = false;
 
-        // DEBUG: Print the raw detection map to console
         if (results.isNotEmpty) {
             if (kDebugMode) {
               print('--- RAW DETECTION MAP ---');
