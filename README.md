@@ -56,7 +56,7 @@ This project specifically addresses stability issues found when integrating the 
 
 1.  **Clone the repository:**
     ```bash
-    git clone [Your Repository URL]
+    git clone https://github.com/dineshkokare123/yolo_demo
     cd yolo_demo
     ```
 2.  **Get dependencies:**
@@ -82,8 +82,8 @@ This project specifically addresses stability issues found when integrating the 
 
 1.  Click the **"Pick Image & Detect"** button.
 2.  Select an image from your device gallery.
-3.  The app will display the image with red bounding boxes and confidence labels drawn over detected objects.
-4.  The list below the image shows the confidence and label for each detected object.
+4.  The app will display the image with red bounding boxes and confidence labels drawn over detected objects.
+5.  The list below the image shows the confidence and label for each detected object.
 
 
 ## 🤝 Contributing
